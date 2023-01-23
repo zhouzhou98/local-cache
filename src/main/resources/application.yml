@@ -1,0 +1,4 @@
+local:
+  cache:
+    type: LFU
+    capacity: 16
