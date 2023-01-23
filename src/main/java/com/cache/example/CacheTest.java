@@ -1,4 +1,4 @@
-package com.cache;
+package com.cache.example;
 
 import com.cache.template.LocalCacheTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

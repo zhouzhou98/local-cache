@@ -12,7 +12,6 @@ public abstract class AbstractCache<K, V> implements CacheI<K, V>{
     }
     public AbstractCache(Integer capacity) {
         this.capacity = capacity;
-//        this.map = new ConcurrentHashMap<>(capacity);
     }
 
     protected abstract Integer getConcurrentHashMapSize();
